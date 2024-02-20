@@ -1,0 +1,38 @@
+// Place your button styles here
+.btn {
+  display: inline-block;
+  //   line-height: ;
+  //   font-weight: ;
+  text-align: center;
+  text-decoration: none;
+  //   padding: ;
+  // font-family: $font-family;
+  //   font-size: ;
+  //   color: ;
+  //   border-radius: ;
+  transition: box-shadow 0.2s, background 0.2s, border-color 0.2s, color 0.2s;
+  cursor: pointer;
+
+  &--md {
+    // font-size: fs-md;
+    // padding: ;
+    // font-weight: ;
+  }
+
+  &--sm {
+    // font-size: $fs-sm;
+    // padding: ;
+    // font-weight: ;
+  }
+
+  &--color {
+    // color: ;
+    // background-color: ;
+    // border: 1px solid color;
+
+    &:hover {
+      //   background-color: ;
+      //   border-color: ;
+    }
+  }
+}

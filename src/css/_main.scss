@@ -1,0 +1,47 @@
+//All styles can be added here.
+
+// TODO: Add all base styles
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // font-family: $font-family;
+  // line-height: ;
+  // font-weight: ;
+  // color: ;
+  // background-color: ;
+}
+
+.heading {
+  // font-family: $font-family;
+  // color: ;
+  // line-height: ;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+
+  // &--lg {
+  //   font-size: $h-lg;
+  // }
+  // &--md {
+  //   font-size: $h-md;
+  // }
+  // &--sm {
+  //   font-size: $h-sm;
+  // }
+  // &--xs {
+  //   font-size: $h-xs;
+  // }
+
+  &--regular {
+    font-weight: 400;
+  }
+
+  &--light {
+    font-weight: 300;
+  }
+}
+
+svg {
+  fill: currentColor !important;
+}

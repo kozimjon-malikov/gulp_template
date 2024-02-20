@@ -1,0 +1,21 @@
+# dev/build outputs
+# remove or comment 'build' if you want to push build files also
+dist
+build 
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
